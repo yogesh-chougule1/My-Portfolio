@@ -15,7 +15,7 @@ const Navbar = () => {
             <Link to="/experience" onClick={() => setIsOpen(false)}>Experience</Link>
             <Link to="/certifications" onClick={() => setIsOpen(false)}>Certifications</Link>
             <Link to="/achievements" onClick={() => setIsOpen(false)}>Achievements</Link>
-            {/* <Link to="/contact" onClick={() => setIsOpen(false)}>Contact</Link> */}
+            <Link to="/contact" onClick={() => setIsOpen(false)}>Contact</Link>
           </div>
           <div className="hamburger" onClick={() => setIsOpen(!isOpen)}>
             <span></span>
